@@ -1,0 +1,699 @@
+/* DEFAULTS */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background: #30373b !important;
+  color: #566268;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.bg-parallax {
+  background-attachment: fixed;
+}
+
+#style-8::-webkit-scrollbar-track {
+  border: 1px solid black;
+  background-color: #f5f5f5;
+}
+
+#style-8::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+#style-8::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+
+/* .modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+*/
+.modal-content {
+  background: #161616;
+}
+.close {
+  color: white;
+}
+
+/* MODALS */
+
+.headline-image-deals {
+  background: #161616;
+}
+.modal-footer {
+  border-top: 0px;
+}
+.modal-header {
+  border: 0px;
+}
+.modal-text-box {
+  height: 100%;
+  background: white;
+}
+.cocktail-deal {
+  background-image: url('../img/joseph-gonzalez-110827.jpg');
+  height: 100px;
+  background-size: contain;
+  background-position: center;
+}
+
+/* EVENTS MODAL */
+.events-modaler {
+  background-image: url('../img/anthony-delanoix-15928.jpg');
+  height: 100px;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.8;
+}
+/* HOME COVER */
+/* position + top + left + transform will center the element*/
+video#bgvid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url('/img/alexandra-gorn-308385.jpg') no-repeat;
+
+  margin-bottom: 0;
+  opacity: 0.7;
+}
+.fa-cutlery {
+  color: rgba(255, 255, 255, 0.7);
+}
+.fa-cutlery:hover {
+  color: rgba(255, 255, 255, 1);
+}
+#home-content-box img {
+  margin: 0 auto 0 auto;
+}
+
+/* BUTTONS */
+.btn-white {
+  background-color: white;
+  font-family: 'Droid Sans', sans-serif;
+  border-radius: 24px;
+  font-size: 1.2em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #30373b;
+  transition: all 0.5s ease-in-out;
+
+  text-transform: uppercase;
+}
+.btn-white:hover,
+.btn-white:focus {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+  color: white;
+}
+.food-btn {
+  margin: 0 auto 0 auto;
+}
+/* NAVIGATION  */
+header {
+}
+.navbar {
+  transition: all 0.5s ease-in-out;
+  margin: 0;
+}
+.vesco-top-nav {
+  background: #30373b;
+  padding: 7px 0;
+}
+.vesco-nav-wrapper {
+  padding: 0 85px;
+}
+.navbar-nav {
+  float: right;
+}
+.navbar-nav > li > a {
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  background: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+.navbar-toggle {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid #fff;
+  border-radius: 0;
+}
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+/*This will get rid of scrollbar*/
+.navbar-collapse {
+  max-height: none !important;
+}
+.vesco-top-nav ul.navbar-nav > li.active > a {
+  color: white;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+/* ABOUT */
+section {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.container-fluid {
+  margin: 0;
+}
+
+#about-content-box {
+  background-image: url('../img/buddies.png');
+  background-image: -webkit-linear-gradient(
+      left,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0) 20%,
+      rgba(0, 0, 0, 0) 80%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url('../img/buddies.png');
+
+  height: 700px;
+  background-size: cover;
+  background-position: 30% 20%;
+  background-repeat: no-repeat;
+
+  padding: 0;
+  margin: 0;
+}
+#cocktail-school-box {
+  height: 100%;
+  background: white;
+  padding: 30px;
+}
+#cocktail-school-box h3 {
+  letter-spacing: 2px;
+  padding: 20px;
+  text-transform: uppercase;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.5em;
+  color: #30373b;
+  border-bottom: 2px dashed rgba(0, 0, 0, 0.2);
+}
+#cocktail-school-box-ul li {
+  line-height: 3em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1em;
+  color: #30373b;
+  list-style: none;
+}
+#about-content-box .dates-title-text {
+  margin-top: 0px;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 2vh;
+}
+#about-content-box .dates-title-text span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.5em;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
+#about-content-box p,
+#about-content-box h2 {
+  width: 30em;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0 auto;
+  margin-top: 60px;
+}
+#about-content-box p {
+  font-size: 1.2em;
+  font-family: 'Droid Sans', sans-serif;
+}
+#about-content-box h2 {
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700;
+}
+#about-content-box .dates-title-text {
+  padding: 30px;
+  padding-left: 110px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 2em;
+  font-style: normal;
+}
+#about-content-box .dates-title-text span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.5em;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+  font-style: normal;
+}
+#cocktail-box {
+  position: relative;
+  background-image: url('../img/jakub-dziubak-262303.png');
+  background-image: -webkit-linear-gradient(
+      left,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0) 20%,
+      rgba(0, 0, 0, 0) 80%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url('../img/jakub-dziubak-262303.png');
+
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  padding: 0;
+  margin: 0;
+}
+#cocktail-box .book-us-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-animation-duration: 1s;
+}
+#home-content-box {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+#home-content-box-inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+/*  FOOD  */
+.headline-image-deals #top-menu {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 1s;
+  position: absolute;
+  z-index: 2;
+}
+
+#food {
+}
+#food-cover {
+  background-image: url('../img/thomas-tucker-391058 (1).png');
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px;
+  padding-bottom: 90px;
+}
+.menu-span {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 0.5em;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 700;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+#food-drink-title {
+  font-family: 'Droid Sans', sans-serif;
+  letter-spacing: 1px;
+  font-size: 2em;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.food-img-box {
+  height: 500px;
+  padding: 200px 0;
+  margin: 200px 0;
+}
+.food-img {
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+#drinks-menu {
+  background-image: url('../img/varshesh-joshi-65559.png');
+  background-image: -webkit-linear-gradient(
+      left,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0) 20%,
+      rgba(0, 0, 0, 0) 80%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url('../img/varshesh-joshi-65559.png');
+  background-size: cover;
+  background-position: center;
+  background: rgba(0, 0, 0, 0.5);
+  border: 5px solid white;
+}
+#food-menu {
+  background-image: url('../img/eaters-collective-109599.png');
+  background-image: -webkit-linear-gradient(
+      left,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0) 20%,
+      rgba(0, 0, 0, 0) 80%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url('../img/eaters-collective-109599.png');
+  background-size: cover;
+  background-position: center;
+  background: rgba(0, 0, 0, 0.5);
+  border: 5px solid white;
+}
+#cocktails-menu {
+  background-image: url('../img/joseph-gonzalez-110827.png');
+  background-image: -webkit-linear-gradient(
+      left,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0) 20%,
+      rgba(0, 0, 0, 0) 80%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url('../img/joseph-gonzalez-110827.png');
+  background-size: cover;
+  background-position: center;
+  background: rgba(0, 0, 0, 0.5);
+  border: 5px solid white;
+}
+.food-text-box {
+  height: 200px;
+  line-height: 150px;
+  vertical-align: middle;
+}
+.food-text {
+  font-family: 'Droid Sans', sans-serif;
+  padding: 50px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: 700;
+  opacity: 0.95;
+}
+.food-text:hover {
+  opacity: 0.5;
+}
+.big-text {
+  font-size: 2vw;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+  border-bottom: 3px solid white;
+}
+.food-text i {
+  padding: 30px;
+  border: 5px solid white;
+  border-radius: 100px;
+}
+/* DATES */
+.push-down {
+  padding-top: 60px;
+}
+#dates-cover {
+  padding: 0px 0 60px 0px;
+
+  background-color: #f1f1f1;
+  height: 100%;
+  margin: 0;
+  background-image: url('../img/sidebar-4.png');
+
+  background-size: contain;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+#left-side-dates {
+}
+/* NEWS */
+#calendar-sidebar {
+}
+.service-item {
+  padding: 20px 0 20px 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.service-item-icon i {
+  color: #566268;
+  float: left;
+  padding: 15px;
+  margin-right: 15px;
+  height: 75px;
+  width: 75px;
+  text-align: center;
+}
+.service-item:hover .service-item-icon i {
+  color: #fff;
+  background-color: #30373b;
+}
+.service-item-title h3 {
+  font-family: 'Droid Sans', sans-serif;
+  color: #566268;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+}
+.upcoming-events-box {
+  /* padding-top: 60px;  MEDIA-QUERY, SMALL SCREENS*/
+}
+.service-item-desc p {
+  width: 320px;
+  display: block;
+}
+.upcoming-events-box.service-item-desc p {
+  margin: 0;
+  padding-left: 85px;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+.dates-menu-span {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 0.5em;
+
+  font-weight: 700;
+  color: rgba(48, 55, 59, 0.5);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  border-bottom: 2px solid rgba(48, 55, 59, 0.5);
+}
+.dates-title-text {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #566268;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.deals-button-box {
+}
+.date-time {
+  margin-top: 15px;
+  font-size: 1em;
+  font-weight: 700;
+  color: rgba(48, 55, 59, 0.5);
+}
+#events-menu {
+  margin-top: 30px;
+}
+.btn-none {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  margin-top: 2.5em;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #f4f4f4;
+  border: 1px solid #30373b;
+  border-radius: 24px;
+  color: #30373b;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+}
+.btn-none:hover,
+.btn-none:focus {
+  background-color: #30373b;
+  color: white;
+}
+
+.btn-none-small {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 0.8em;
+  font-weight: 700;
+  margin-top: 2.5em;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #30373b;
+  border-radius: 24px;
+  color: #30373b;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+}
+.btn-none-small:hover,
+.btn-none-small:focus {
+  background-color: #30373b;
+  color: white;
+}
+
+/* Find Us*/
+#location {
+  background: #30373b;
+}
+#find-us-box {
+  background: #ffffff;
+  height: 700px;
+  padding: 30px;
+}
+#find-us-list ul li {
+  list-style: none;
+  font-size: 1.2em;
+  font-weight: 700;
+  padding-top: 40px;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+#find-us-list ul li i {
+  margin-right: 30px;
+}
+#map {
+  height: 700px;
+}
+.alt-grid [class*='col-'] {
+  padding-left: 0;
+  padding-right: 0;
+}
+.alt-grid .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.find-us-btn {
+  text-align: center;
+}
+
+.order-with-us-box {
+  background-image: url('../img/rawpixel-com-255082.jpg');
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+}
+button:focus {
+  outline: 0 !important;
+}
+.book-us-btn {
+  background-color: white;
+  padding: 15px 30px 15px 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.5em;
+  color: #30373b;
+  transition: all 0.5s ease-in-out;
+}
+.book-us-btn:hover,
+.book-us:focus {
+  background-color: rgba(0, 0, 0, 0);
+  color: #f4f4f4;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+.order-with-us-btn-box {
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* TEAM */
+.team-member {
+  margin: 0 15px;
+}
+.team-member-info {
+  padding: 10px 0 30px 0;
+}
+.team-member img {
+  width: 100px;
+  height: 100px;
+}
+.owl-carousel {
+  background-color: white;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.item {
+  margin: 0;
+}
+/* FOOTER */
+.footer-wrapper {
+  padding: 30px;
+  background-color: #30373b;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+
+  background-size: cover;
+  background-position: center;
+}
+.sml-image {
+  font-family: 'Droid Sans', sans-serif;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 0 auto;
+}
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 22px;
+  padding: 3px 15px;
+  border-radius: 0;
+  display: none;
+}
+.fa.fa-angle-up {
+  color: white;
+}
+.body {
+}
+
+.carousel-content {
+  display: flex;
+  align-items: center;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+}
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+.glyphicon {
+  color: black;
+}

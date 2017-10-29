@@ -1,0 +1,9 @@
+/*======================================================
+    screen sizes smaller than 570
+========================================================*/
+
+@media screen and (min-width: 481px) and (max-width: 720px) {
+  #adams-box-p {
+    font-size: 0.3em;
+  }
+}
