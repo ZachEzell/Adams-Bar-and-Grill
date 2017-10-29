@@ -88,7 +88,6 @@ video#bgvid {
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url('/img/alexandra-gorn-308385.jpg') no-repeat;
 
   margin-bottom: 0;
   opacity: 0.7;
@@ -184,7 +183,7 @@ section {
 }
 
 #about-content-box {
-  background-image: url('../img/buddies.png');
+  background-image: url('../img/buddies.jpg');
   background-image: -webkit-linear-gradient(
       left,
       rgba(0, 0, 0, 0.9) 0%,
@@ -192,7 +191,7 @@ section {
       rgba(0, 0, 0, 0) 80%,
       rgba(0, 0, 0, 0.9) 100%
     ),
-    url('../img/buddies.png');
+    url('../img/buddies.jpg');
 
   height: 700px;
   background-size: cover;
@@ -268,7 +267,7 @@ section {
 }
 #cocktail-box {
   position: relative;
-  background-image: url('../img/jakub-dziubak-262303.png');
+  background-image: url('../img/jakub-dziubak-262303.jpg');
   background-image: -webkit-linear-gradient(
       left,
       rgba(0, 0, 0, 0.9) 0%,
@@ -276,7 +275,7 @@ section {
       rgba(0, 0, 0, 0) 80%,
       rgba(0, 0, 0, 0.9) 100%
     ),
-    url('../img/jakub-dziubak-262303.png');
+    url('../img/jakub-dziubak-262303.jpg');
 
   height: 700px;
   background-size: cover;
@@ -313,7 +312,7 @@ section {
 #food {
 }
 #food-cover {
-  background-image: url('../img/thomas-tucker-391058 (1).png');
+  background-image: url('../img/thomas-tucker-391058 (1).jpg');
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -594,7 +593,7 @@ section {
 }
 
 .order-with-us-box {
-  background-image: url('../img/rawpixel-com-255082.jpg');
+  background-image: url('../img/rawpixel-com-255082-optimized.jpg');
   height: 700px;
   background-size: cover;
   background-position: center;
